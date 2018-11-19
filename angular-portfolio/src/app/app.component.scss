@@ -1,0 +1,10 @@
+@import '../sass/variables';
+
+#logo {
+    color: $moon-light; 
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 150px;
+    margin: 0 auto;
+    border: 5px solid white;
+    padding: 50px;
+}

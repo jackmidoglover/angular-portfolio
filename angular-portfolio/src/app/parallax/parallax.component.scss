@@ -1,0 +1,17 @@
+#parallax {
+    min-height: 50vw; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.logo {
+    color: white; 
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 150px;
+    margin: 0 auto;
+    border: 5px solid white;
+    padding: 50px;
+}
