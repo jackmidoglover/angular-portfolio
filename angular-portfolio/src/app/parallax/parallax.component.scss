@@ -13,12 +13,11 @@
     #parallax{
         min-height: 148vw;
         background-size: cover ;
-        resize: both;    
     }
 }
 
 @media screen and (max-width: $break-small){
     #parallax{
-        min-height: 148vw;
+        min-height: 178vw;
     }
 }

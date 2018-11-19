@@ -7,4 +7,15 @@
     margin: 0 auto;
     border: 5px solid white;
     padding: 50px;
+
+}
+
+
+@media screen and (max-width: $break-small){
+
+    #logo{
+        font-size: 73px;
+        margin-left: 0;
+        padding: 0;
+    }
 }

@@ -24,8 +24,14 @@ body, html {
 }
 
 
-@media screen and (device-max-width: $break-small){
+@media screen and (max-width: $break-small){
     .firstMoon {
         background-image: url('../assets/images/nightskymobile.jpg');
+    }
+}
+
+@media screen and (max-width: $break-medium){
+    html, body {
+        min-width: 106%;
     }
 }
