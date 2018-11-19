@@ -1,5 +1,7 @@
+@import '../../sass/variables';
+
 #parallax {
-    min-height: 50vw; 
+    min-height: 50vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,3 +9,16 @@
     padding-top: 200px;
 }
 
+@media screen and (max-width: $break-medium){
+    #parallax{
+        min-height: 148vw;
+        background-size: cover ;
+        resize: both;    
+    }
+}
+
+@media screen and (max-width: $break-small){
+    #parallax{
+        min-height: 148vw;
+    }
+}

@@ -1,9 +1,17 @@
+// Color Scheme //
 $dusk: #656687;
 $night: #26273B;
 $moon: #CFB87F;
 $moon-light: #FFFFFF;
 $moon-shadow: #4F4944;
+
+// Font Families
 $logo-font-family: 'Fredericka the Great', cursive;
 $logo-font-size: 150px;
 $header-font: 'Oswald', sans-serif;
 $header-font-size: 80px;
+
+// Media queries
+$break-small: 414px;
+$break-medium: 768px;
+$break-large: 1200px;

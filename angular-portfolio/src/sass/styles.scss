@@ -14,3 +14,18 @@
 .newMoon{
     background-image: url('../assets/images/newmoon.jpeg');
 }
+
+.night {
+    background-color: $dusk;
+}
+
+body, html {
+    min-width: 100%;
+}
+
+
+@media screen and (device-max-width: $break-small){
+    .firstMoon {
+        background-image: url('../assets/images/nightskymobile.jpg');
+    }
+}
