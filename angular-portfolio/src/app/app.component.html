@@ -1,11 +1,15 @@
 <div>
-<app-parallax>
+<app-parallax [className]="parallaxClasses[0]">
   <div class="valign-wrapper">
         <h1 id="logo" class="center-align">Jacquelyne Glover</h1>
   </div>
   
 </app-parallax>
 <app-content-area></app-content-area>
+<app-parallax [className]="parallaxClasses[1]">
+
+</app-parallax>
 <app-content-area></app-content-area>
+<app-parallax [className]="parallaxClasses[2]"></app-parallax>
 <app-footer></app-footer>
 </div>

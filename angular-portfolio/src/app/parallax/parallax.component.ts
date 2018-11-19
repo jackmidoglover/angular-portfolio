@@ -7,6 +7,7 @@ import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class ParallaxComponent implements OnInit {
+  @Input() className: {type: string};
   constructor() { }
 
   ngOnInit() {
