@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+declare var require: any;
+var projects = require('../assets/projectdata/projects.json');
 
 
 @Component({
@@ -9,4 +11,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-portfolio';
   parallaxClasses = ["firstMoon", "crescentMoon", "newMoon"];
+  projects = [...projects];
 }

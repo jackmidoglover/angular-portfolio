@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-portfolio-card',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio-card.component.scss']
 })
 export class PortfolioCardComponent implements OnInit {
-
+  @Input() project : {type: Object};
   constructor() { }
 
   ngOnInit() {

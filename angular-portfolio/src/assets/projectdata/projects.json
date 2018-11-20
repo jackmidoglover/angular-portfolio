@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "something", 
+        "description": "something",
+        "repo-link": "http://www.github.com",
+        "project-link": "http://www.github.com",
+        "technologies": [{
+            "name": "JavaScript",
+            "percent": 75
+        }],
+        "imagePath": "/assets/images/nightskymobile.jpg"
+    },
+    {
+        "id": 2,
+        "title": "something2", 
+        "description": "something2",
+        "repo-link": "http://www.github.com",
+        "project-link": "http://www.github.com",
+        "technologies": [{
+            "name": "CSS",
+            "percent": 75
+        }],
+        "imagePath": "/assets/images/crescent-moon-mobile.jpg"
+    }
+]
