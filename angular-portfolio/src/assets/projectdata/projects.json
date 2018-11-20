@@ -1,26 +1,62 @@
 [
     {
         "id": 1,
-        "title": "something", 
-        "description": "something",
-        "repoLink": "http://www.github.com",
-        "projectLink": "http://www.github.com",
+        "title": "Metal Hangman", 
+        "description": "A JavaScript game of Hangman! The user is given a set number of guesses, they must try to guess the name of a norwegian black metal band by pressing random keys. If they choose all the correct letters they win, if they don't, they lose.",
+        "repoLink": "https://github.com/jackmidoglover/Hangman-Game",
+        "projectLink": "https://jackmidoglover.github.io/Hangman-Game/",
         "technologies": [{
+            "name": "HTML",
+            "percent": 68.8
+        }, 
+        {
             "name": "JavaScript",
-            "percent": 75
+            "percent": 17.8
+        },
+        {
+            "name": "CSS",
+            "percent": 13.4
         }],
-        "imagePath": "/assets/images/nightskymobile.jpg"
+        "imagePath": "/assets/images/portfolioImages/hangmanlogo.png"
     },
     {
         "id": 2,
-        "title": "something2", 
-        "description": "something2",
-        "repoLink": "http://www.github.com",
-        "projectLink": "http://www.github.com",
+        "title": "Crystal Collector", 
+        "description": "My first attempt at using jQuery. This game presents the user with four crystal with hidden number values, and a random number which is their goal. The user must click on the crystal to increase the score to match the random number exactly. If they go over, they lose. If they match it, they win.",
+        "repoLink": "https://github.com/jackmidoglover/week-4-game",
+        "projectLink": "https://jackmidoglover.github.io/week-4-game/",
         "technologies": [{
             "name": "CSS",
-            "percent": 75
+            "percent": 43.4
+        }, 
+        {
+            "name": "HTML",
+            "percent": 33.7
+        },
+        {
+            "name": "JavaScript & jQuery",
+            "percent": 22.9
         }],
-        "imagePath": "/assets/images/crescent-moon-mobile.jpg"
+        "imagePath": "/assets/images/portfolioImages/crystal-logo.png"
+    },
+    {
+        "id": 3,
+        "title": "GoT Trivia", 
+        "description": "In The Game of Thrones Trivia you win... or you die! This is a trivia game utilizing JavaScript's native timer functions to loop users through an array of questions in the form of cards. It evaluates uers choices and responds with an appropriate gif.",
+        "repoLink": "https://github.com/jackmidoglover/TriviaGame",
+        "projectLink": "https://jackmidoglover.github.io/TriviaGame/",
+        "technologies": [{
+            "name": "CSS",
+            "percent": 15.4
+        }, 
+        {
+            "name": "HTML",
+            "percent": 21
+        },
+        {
+            "name": "JavaScript & jQuery",
+            "percent": 63.6
+        }],
+        "imagePath": "/assets/images/portfolioImages/gotportfolioicon.jpg"
     }
 ]
