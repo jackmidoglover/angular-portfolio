@@ -1,18 +1,38 @@
-<div class="col s12 m3 flip">
-  <div class="card night flip-inner">
-    <div class="flip-back">
-      <div class="card-content ">
-        <span class="card-title">{{ project.title }}</span>
-        <p>This is a test of looping through a component and inputing data via databinding</p>
-        <p>Description: {{ project.description }}</p>
-      </div>
-      <div class="card-action">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-      </div>
+<div class="col s12 m3">
+  <div class="card medium">
+    <div class="card-image waves-effect waves-block waves-light" id="image">
+      <img [src]="project.imagePath" alt="project.title" />
     </div>
-    <div class="flip-front">
-      <img [src]="project.imagePath" [alt]="project.title" />
+    <div class="card-content titleArea moon">
+      <span class="card-title activator moon"> {{project.title}} <i class="material-icons right">keyboard_arrow_up</i></span>
+    </div>
+      <div class="card-reveal">
+        <span class="card-title moon"> {{project.title}} <i class="material-icons right">close</i></span>
+        <p>{{project.description}}</p>
+        <hr />
+        <a class="btn linkBtn" [href]="project.projectLink">Open {{project.title}}</a>
+        <a class="btn linkBtn" [href]="project.repoLink">See Code</a>
+      </div>
+      
+      
+      
+      
+      
+      
+      <!-- <div class="flip-back">
+        <div class="card-content">
+          <span class="card-title">{{ project.title }}</span>
+          <p>This is a test of looping through a component and inputing data via databinding</p>
+          <p>Description: {{ project.description }}</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+        </div>
+      </div>
+      <div class="flip-front">
+        <img class="night" [src]="project.imagePath" [alt]="project.title" />
+      </div>
     </div>
   </div>
-</div>
+</div> -->

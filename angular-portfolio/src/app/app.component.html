@@ -8,12 +8,10 @@
 <app-content-area>
   <app-bio></app-bio>
 </app-content-area>
-<app-parallax [className]="parallaxClasses[1]">
-
-</app-parallax>
-<app-content-area>
-  <h2 class="center">Portfolio</h2>
-  <app-portfolio-card *ngFor="let project of projects" [project]="project"></app-portfolio-card>
+<app-parallax [className]="parallaxClasses[1]"></app-parallax>
+<app-content-area [sectionTitle]="sectionTitle[1]">
+  <!-- <h2 class="center">Portfolio</h2> -->
+  <app-portfolio-card *ngFor="let project of projects" [project]="project" myMatchHeight="card"></app-portfolio-card>
 </app-content-area>
 <app-parallax [className]="parallaxClasses[2]"></app-parallax>
 <app-footer></app-footer>

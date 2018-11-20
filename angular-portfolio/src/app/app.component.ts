@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Directive } from '@angular/core';
 declare var require: any;
 var projects = require('../assets/projectdata/projects.json');
 
@@ -9,7 +9,7 @@ var projects = require('../assets/projectdata/projects.json');
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-portfolio';
   parallaxClasses = ["firstMoon", "crescentMoon", "newMoon"];
   projects = [...projects];
+  sectionTitle = ["About Me", "Portfolio"];
 }
