@@ -17,7 +17,7 @@
             "name": "CSS",
             "percent": 13.4
         }],
-        "imagePath": "/assets/images/portfolioImages/hangmanlogo.png"
+        "imagePath": "/assets/images/portfolioImages/gallow.png"
     },
     {
         "id": 2,
@@ -37,7 +37,7 @@
             "name": "JavaScript & jQuery",
             "percent": 22.9
         }],
-        "imagePath": "/assets/images/portfolioImages/crystal-logo.png"
+        "imagePath": "assets/images/portfolioImages/crystals.png"
     },
     {
         "id": 3,
