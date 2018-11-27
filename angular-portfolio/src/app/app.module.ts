@@ -8,6 +8,7 @@ import { PortfolioCardComponent } from './content-area/portfolio-card/portfolio-
 import { BioComponent } from './content-area/bio/bio.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { MetricComponent } from './content-area/portfolio-card/metric/metric.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     PortfolioCardComponent,
     BioComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    MetricComponent
   ],
   imports: [
     BrowserModule

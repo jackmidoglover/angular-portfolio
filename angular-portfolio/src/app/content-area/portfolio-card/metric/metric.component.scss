@@ -1,0 +1,12 @@
+@import '../../../../sass/variables';
+
+.myModal {
+    width: 400px; 
+    height: 600px; 
+    z-index: 10;
+    position: fixed;
+    top: 100px;
+    left: 765px;
+    background-color: $night;
+
+}
