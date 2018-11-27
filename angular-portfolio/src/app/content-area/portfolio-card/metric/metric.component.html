@@ -1,7 +1,8 @@
 <div id="{{projectDetail.id}}" class="myModal card center-align">
   <div class="card-content center-align">
-    <h4>Modal Header</h4>
+    <h4>Technologies Used in {{projectDetail.title}}</h4>
     <p *ngFor="let technology of projectDetail.technologies">{{technology.name}}, {{technology.percent}}</p>
+    <p> Under Construction...</p>
   </div>
-    <a href="#!" class="btn grey darken-4 waves-effect waves-green" (click)="modalClose($event)">Close</a>
+    <a href="#!" class="btn grey darken-4 waves-effect waves-green" (click)="modalClose()">Close</a>
 </div>
