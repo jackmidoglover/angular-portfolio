@@ -4,7 +4,7 @@
     height: auto;
     // min-height: 100%;
     // overflow: auto;
-    background-color: $dusk;
+    background-color: $night;
     padding-bottom: 50px;
     // display: inline-block;
     clear: both;
@@ -18,18 +18,63 @@
 .title {
     font-family: $header-font;
     font-size: $header-font-size;
-    color: $night;
-    text-shadow: 0 0 5px $moon;
-}
-
-hr {
-    border-color: $moon;
-    background-color: $night;
-    color: $night;
+    color: $dusk;
+    // text-shadow: 0 0 5px $moon;
 }
 
 .portfolio {
-    border-color: $night;
-    background-color: $night;
-    color: $night;
+    border-color: $dusk;
+    background-color: $dusk;
+    color: $dusk;
+}
+
+.upLink {
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.3);
+    color: darkgray;
+    position: relative;
+    top: 0;
+    // border-top: 2px solid darkgray;
+    min-width: 100%;
+    font-family: "Josefin Slab", cursive;
+    padding: 10px;
+    font-weight: 700;
+    a {
+        color: darkgray;
+    }
+    p {
+        // margin-top: 0;
+    }
+
+}
+
+.upLink:hover{
+    background-color: rgba(0,0,0, 0.5);
+    // a {
+    //     color: white;
+    // }
+}
+.downLink:hover{
+    background-color: rgba(0,0,0, 0.5);
+    // a {
+    //     color: white;
+    // }
+}
+
+.downLink {
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.3);
+    color: darkgray;
+    position: relative;
+    bottom: 0;
+    // border-top: 2px solid darkgray;
+    min-width: 100%;
+    font-family: "Josefin Slab", cursive;
+    padding: 10px;
+    font-weight: 700;
+    margin-bottom: -50px;
+    a {
+        color: darkgray;
+    }
+
 }

@@ -2,11 +2,11 @@
 
 .linkBtn{
     margin-right: 10px;
-    background-color: $dusk;
+    background-color: $night;
 }
 
 .card {
-    background-color: $night;
+    background-color: $dusk;
     max-height: 75%;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .card-reveal {
-    background-color: $night;
+    background-color: $dusk;
     color: $moon;
     font-family: $header-font;
     size: 16px;

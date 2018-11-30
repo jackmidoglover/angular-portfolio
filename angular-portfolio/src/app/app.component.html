@@ -1,26 +1,26 @@
 <!-- <div class="container-fluid"> -->
-<app-parallax [className]="parallaxClasses[0]">
+<app-parallax [className]="parallaxClasses[0]" id="home">
   <div class="valign-wrapper">
     <h1 id="logo">Jacquelyne Glover</h1>
   </div>
 
-  <div class="downLink">
+  <div class="downLinkTop">
     <p class="center"><a href="#aboutMe">Learn More</a></p>
   </div>
 </app-parallax>
-<app-content-area id="aboutMe">
+<app-content-area id="aboutMe" [linkTitle]="sectionLinks[0]">
   <app-bio></app-bio>
   <!-- <div class="downLink">
       <p class="center"><a href="#portfolio">Portfolio</a></p>
   </div> -->
 </app-content-area>
 <app-parallax [className]="parallaxClasses[1]"></app-parallax>
-<app-content-area [sectionTitle]="sectionTitle[1]" id="portfolio">
+<app-content-area [sectionTitle]="sectionTitle[1]" [linkTitle]="sectionLinks[1]" id="portfolio">
   <!-- <h2 class="center">Portfolio</h2> -->
   <app-portfolio-card *ngFor="let project of projects" [project]="project" myMatchHeight="card"></app-portfolio-card>
 </app-content-area>
 <app-parallax [className]="parallaxClasses[2]"></app-parallax>
-<app-footer></app-footer>
+<app-footer id="contactMe"></app-footer>
 <!-- </div> -->
 
 <!-- <app-metric [projectDetail]="project"></app-metric> -->
