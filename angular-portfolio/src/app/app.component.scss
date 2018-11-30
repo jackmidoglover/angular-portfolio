@@ -46,14 +46,14 @@ body {
 @media screen and (max-width: $break-small){
 
     #logo{
-        font-size: 73px;
-        margin-left: 0;
+        font-size: 65px;
         padding: 0;
+        width: 90%;
     }
 
-    .downLinkTop {
-        min-width: 110%;
-        position: absolute;
-        bottom: -70px;
-    }
+    // .downLinkTop {
+    //     min-width: 110%;
+    //     position: absolute;
+    //     bottom: -70px;
+    // }
 }
