@@ -9,10 +9,10 @@
       <div class="card-reveal">
         <span class="card-title moon"> {{project.title}} <i class="material-icons right">close</i></span>
         <p>{{project.description}}</p>
-        <a class="waves-effect waves-light btn modal-trigger" (click)="onModalClick($event)">Modal</a>
+        <a class="waves-effect waves-light btn modal-trigger linkBtn" (click)="onModalClick($event)">Technologies</a>
         <hr />
-        <a class="btn linkBtn" [href]="project.projectLink">Open {{project.title}}</a>
-        <a class="btn linkBtn" [href]="project.repoLink">See Code</a>
+        <a class="btn star" [href]="project.projectLink">Open {{project.title}}</a>
+        <a class="btn star" [href]="project.repoLink"><i class="material-icons left">code</i>See Code</a>
       </div>
     </div>
 </div>
