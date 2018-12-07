@@ -8,7 +8,7 @@ import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } fro
 })
 export class ContentAreaComponent implements OnInit {
 @Input() sectionTitle : String;
-@Input() linkTitle : {up: string, down: string};
+@Input() linkTitle : {};
   constructor() { }
 
   ngOnInit() {
