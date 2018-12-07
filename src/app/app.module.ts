@@ -9,7 +9,7 @@ import { BioComponent } from './content-area/bio/bio.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MetricComponent } from './content-area/portfolio-card/metric/metric.component';
-
+import { MatchHeightDirective } from './match-height.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +19,8 @@ import { MetricComponent } from './content-area/portfolio-card/metric/metric.com
     BioComponent,
     FooterComponent,
     NavbarComponent,
-    MetricComponent
+    MetricComponent,
+    MatchHeightDirective
   ],
   imports: [
     BrowserModule
