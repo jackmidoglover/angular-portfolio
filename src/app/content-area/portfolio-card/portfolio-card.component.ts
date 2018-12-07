@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, ViewEncapsulation, Output, EventEmitter } from '@angular/core';
+import { portfolioItem } from './portfolioItem';
 
 @Component({
   selector: 'app-portfolio-card',
@@ -7,18 +8,10 @@ import { Component, OnInit, Input, ViewEncapsulation, Output, EventEmitter } fro
   // encapsulation: ViewEncapsulation.None,
 })
 
-interface portfolioItem {
- imagePath: string, 
- title: string,
- description: string,
- projectLink: string, 
- repoLink: string,
- id: number, 
- technologies: []
-}
+
 export class PortfolioCardComponent implements OnInit {
 
-  @Input() project : {type: portfolioItem};
+  @Input() public project : portfolioItem;
   @Output() modalOpen = new EventEmitter<{project: Object[], clicked: boolean}>();
 
   modalShow = false;

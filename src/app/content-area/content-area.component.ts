@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
+import { LinkObject } from './LinkObject';
 
 @Component({
   selector: 'app-content-area',
@@ -8,7 +9,7 @@ import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } fro
 })
 export class ContentAreaComponent implements OnInit {
 @Input() sectionTitle : String;
-@Input() linkTitle : {};
+@Input() public linkTitle : LinkObject;
   constructor() { }
 
   ngOnInit() {
