@@ -177,5 +177,38 @@
         }
     ],
         "imagePath": "/assets/images/portfolioImages/brbicon.png"
+    },
+    {
+        "id": 8,
+        "title": "Merry Meet", 
+        "description": "Merry Meet is a location-based social networking app that allows Pagans and Wiccans to drop markers in favorite hang out spots that produce chatrooms based in that area. It is meant to encourage face-to-face interaction. It utilizes React, Express, Node, and MongoDB, along with Cloudinary, Multer, and React-Google-Maps.",
+        "repoLink": "https://github.com/jackmidoglover/merryMeet",
+        "projectLink": "https://aqueous-savannah-50488.herokuapp.com/#",
+        "technologies": [{
+            "name": "CSS",
+            "percent": 3.9
+        }, 
+        {
+            "name": "HTML",
+            "percent": 5.7
+        },
+        {
+            "name": "JavaScript",
+            "percent": 90.4
+        },
+        {
+            "name": "Node"
+        },
+        {
+            "name": "Express"
+        },
+        {
+            "name": "React 16"
+        },
+        {
+            "name": "MongoDB"
+        }
+    ],
+        "imagePath": "/assets/images/portfolioImages/merrymeet.jpeg"
     }
 ]
